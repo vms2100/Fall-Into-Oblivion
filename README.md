@@ -17,6 +17,3 @@ substituir os MACs por assinaturas digitais (o programa deve então também perm
 permitir que o utilizador escolha a cifra a utilizar e o comprimento da chave de cifra;
 permitir que o utilizador escolha a função de hash a usar; 
 ter um help completo e intuitivo.
-
-Uma versão muito básica deste trabalho pode utilizar chamadas ao sistema (comandos OpenSSL). A forma ideal de implementar o trabalho passar por integrar os mecanismos criptográﬁcos na própria aplicação. Pensem numa forma de atacar o sistema (uma falha da sua implementação) e dediquem-lhe um pequeno intervalo de tempo na apresentação.
----
