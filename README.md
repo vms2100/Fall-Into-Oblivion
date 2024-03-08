@@ -10,10 +10,3 @@ gerar automaticamente um PIN, e usá-lo como chave para cifrar cada ﬁcheiro;
 calcular o MAC dos criptogramas;
 permitir decifrar o ﬁcheiro por via da adivinhação do PIN. Só devem ser permitidas até 3 tentativas;
 veriﬁcar a integridade do ﬁcheiro no caso do PIN ter sido adivinhado.
-
-A aplicação pode correr em modo Client Line Interface (CLI) ou em modo gráﬁco (ﬁca ao critério dos executantes). Devem usar cifras e mecanismos de autenticação de mensagens de qualidade (e.g., Advanced Encryption Standard em modo Cipher Block Chaining (AES-CBC) e Hash MAC Secure Hash Algorithm 256 (HMAC-SHA256)). Podem fortalecer o trabalho e solidiﬁcar o conhecimento através da implementação das seguintes funciona-
-lidades:
-substituir os MACs por assinaturas digitais (o programa deve então também permitir gerar as chaves pública e privadas);
-permitir que o utilizador escolha a cifra a utilizar e o comprimento da chave de cifra;
-permitir que o utilizador escolha a função de hash a usar; 
-ter um help completo e intuitivo.
